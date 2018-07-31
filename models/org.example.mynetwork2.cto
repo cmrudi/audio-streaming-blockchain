@@ -1,0 +1,22 @@
+/**
+ * Write your model definitions here
+ */
+
+namespace org.example.mynetwork2
+
+participant User identified by email {
+  o String email
+}
+
+asset Music identified by musicId {
+  o String musicId
+  o String albumId
+  o String artistId
+}
+
+transaction Streaming {
+  o String streamingTimestamp
+  o String digitalSign
+  --> Music relatedMusic
+  --> User relatedUser
+}

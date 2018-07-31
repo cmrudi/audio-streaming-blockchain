@@ -1,0 +1,25 @@
+{
+  "name": "svara000",
+  "version": "0.0.6",
+  "description": "Development for Svara Blockhcain",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "cmrudi",
+  "email": "cutmeurahrudi@gmail.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "composer-admin": "latest",
+    "composer-client": "latest",
+    "composer-common": "latest",
+    "composer-connector-embedded": "latest",
+    "chai": "latest",
+    "eslint": "latest",
+    "istanbul": "latest",
+    "mkdirp": "latest",
+    "mocha": "latest"
+  },
+  "dependencies": {
+    "jsonlint": "^1.6.3"
+  }
+}
